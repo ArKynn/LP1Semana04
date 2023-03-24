@@ -2,6 +2,9 @@
 
 namespace Power2Method
 {
+    /// <summary>
+    /// Defines and runs PowersOf2Until5 and PowersOf2UntilN
+    /// </summary>
     class Program
     {
         /// <summary>
