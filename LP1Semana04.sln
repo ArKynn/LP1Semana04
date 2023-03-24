@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Power2Method", "Power2Metho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamousQuotes", "FamousQuotes\FamousQuotes.csproj", "{F569CC65-508A-4F4C-BF24-FC0C43D02E69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lucas", "Lucas\Lucas.csproj", "{DD453ABF-4098-4444-B672-DBF5A9657497}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{F569CC65-508A-4F4C-BF24-FC0C43D02E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F569CC65-508A-4F4C-BF24-FC0C43D02E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F569CC65-508A-4F4C-BF24-FC0C43D02E69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD453ABF-4098-4444-B672-DBF5A9657497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD453ABF-4098-4444-B672-DBF5A9657497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD453ABF-4098-4444-B672-DBF5A9657497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD453ABF-4098-4444-B672-DBF5A9657497}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
