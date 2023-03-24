@@ -26,6 +26,18 @@ namespace Power2Method
             }
         }
         /// <summary>
+        /// Returns each power of 2 in a separate line, starting from the "nini"nth and finishing in the "nfin"nth
+        /// </summary>
+        /// <param name="nini">Defines the first power of 2 to return</param>
+        /// <param name="nfin">Defines the last power of 2 to return</param>
+        private static void PowersOf2UntilN(int nini, int nfin)
+        {
+            for (int i = nini; i <= (1 << nfin - 1); i = i << 1)
+            {
+                Console.WriteLine(i);
+            }
+        }
+        /// <summary>
         /// Calls PowersOf2Until5 two times followed by calling PowersOf2UntilN two times with n = 3 and 4, respectively
         /// </summary>
         static void Main()
@@ -35,6 +47,8 @@ namespace Power2Method
             
             PowersOf2UntilN(3);
             PowersOf2UntilN(4);
+            
+            PowersOf2UntilN(2, 4);
         }
     }
 }
