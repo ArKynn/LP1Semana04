@@ -24,7 +24,8 @@ namespace Power2Method
             PowerOf2Until5();
             PowerOf2Until5();
             
-            string aux
+            PowersOf2UntilN(3);
+            PowersOf2UntilN(4);
         }
     }
 }
