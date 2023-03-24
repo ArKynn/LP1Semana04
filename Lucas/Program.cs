@@ -22,8 +22,7 @@ namespace Lucas
         }
         private static void Main(string[] args)
         {
-            Console.WriteLine("Insert number to find in Lucas' sequence");
-            int lucasNum = Convert.ToInt16(Console.ReadLine());
+            int lucasNum = Convert.ToInt16(args[0]);
             
             Console.WriteLine(Lucas(lucasNum));
         }
